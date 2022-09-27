@@ -5,8 +5,8 @@ let vapidKeys = {
     privateKey: '2JMwxlVKfzfiIEDJDplJ_qxQh-eXjDKt9rw3AE1p5tY'
   }
 
-push.setVapidDetails('mailto:test@code.co.uk', vapidKeys.publicKey, vapidKeys.privateKey);
+push.setVapidDetails('mailto:test@test.com', vapidKeys.publicKey, vapidKeys.privateKey);
 
-let sub ={};
+let sub = {};
 
 push.sendNotification(sub, 'test message');
